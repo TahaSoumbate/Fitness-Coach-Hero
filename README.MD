@@ -1,6 +1,6 @@
 # Fitness Coach Hero Section
 
-🔗 **[View the Live Demo Here](https://tahasoumbate.github.io/Interactive-Profile-Cards/)**
+🔗 **[View the Live Demo Here](https://tahasoumbate.github.io/Fitness-Coach-Hero/)**
 
 ## 📸 Preview
 
