@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: auto;
+  background-color: rgba(226, 226, 226, 0.1);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-section {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+/*<!-- LEFT COLUMN -->*/
+.image-wrapper {
+  position: relative;
+  display: flex;
+ 
+  
+}
+
+.image-wrapper img {
+  height: 50vh;
+  width: 20vw;
+  object-fit: cover;
+  object-position: 0px -98px;
+}
+.floating-badge {
+  position: absolute;
+  background-color: rgb(255, 255, 255, 0.9);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.top-badge {
+  top: 3vh;
+  left: -3vw;
+}
+
+.bottom-badge {
+  bottom: 3vh;
+  right: -3vw;
+}
+
+/* <!-- RIGHT COLUMN -->  */
+
+
+.info-wrapper .badge {
+  color: orange;
+  background-color: rgb(255, 165, 0, 0.2);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 24px;
+  margin-bottom: 10px;
+}
+
+.info-wrapper h1 {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.info-wrapper .highlight {
+  color: red;
+}
+.info-wrapper .text-main {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.info-wrapper .text-main:last-of-type {
+  margin-bottom: 60px;
+}
+
+.info-wrapper strong {
+  color: black;
+}
+
+/*<!-- Stats Row -->*/
+.info-wrapper .stats-container {
+  display: flex;
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.info-wrapper .stats-container .stat-box {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.stats-container .stat-box .stat-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: gray;
+}
+
+/*          <!-- CTA and Author -->*/
+
+.info-wrapper .cta-container {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.info-wrapper .cta-container .btn {
+  background: linear-gradient(
+    137deg,
+    rgba(252, 176, 69, 1) 27%,
+    rgba(255, 0, 77, 1) 100%
+  );
+  color: white;
+  padding: 17px 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(252, 176, 69);
+}
+
+.cta-container .author-name{
+    font-weight: bold;
+}
+.cta-container .author-title{
+    color: gray;
+}
